@@ -313,12 +313,17 @@ body {
     margin-left: 619px;
 }
 
+.board-karusel__bg {
+
+    position: absolute;
+    left: 144px;
+    top: 19px;
+}
+
 .board-karusel__img {
     position: absolute;
     left: 156px;
     top: -87px;
-
-    background: no-repeat center/100% url("/img/around-board.svg");
 }
 
 .board-karusel__sizes {
