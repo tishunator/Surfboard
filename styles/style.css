@@ -411,9 +411,7 @@ body {
     width: 463px;
     margin-bottom: 25px;
     color: #666666;
-    ;
-
-
+    
 }
 
 .review__author {
@@ -423,8 +421,6 @@ body {
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
-
-
 }
 
 .reviews__img {
@@ -437,15 +433,5 @@ body {
     margin-left: 415px;
     margin-top: -164px;
 
-
-
-
 }
 
-.swiper_pagination_img {}
-
-.swiper-wrapper {
-    
-    height: 900px;
-   
-}
