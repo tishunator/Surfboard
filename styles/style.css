@@ -251,9 +251,16 @@ body {
     background-color: #F2F5F4;
 }
 
+/*Вот здесь меняла топ, когда свайпер делала*/
 .board-karusel {
     position: relative;
-    top: 867px;
+    top: 10px;
+}
+
+/*Вот тут возможна проблема,когда буду все двигать по пикселям,так как положение этого свайпера ориентировано на боард*/
+.swiper {
+    position: absolute;
+    top: 800px;
 }
 
 .visually-hidden {
@@ -319,13 +326,13 @@ body {
 
     position: absolute;
     left: 144px;
-    top: 19px;
+
 }
 
 .board-karusel__img {
     position: absolute;
     left: 156px;
-    top: -87px;
+    top: 46px;
 }
 
 .board-karusel__sizes {
@@ -340,7 +347,7 @@ body {
 }
 
 .team {
-    margin-top: 1021px;
+    margin-top: 950px;
     margin-left: 82px;
 }
 
@@ -411,7 +418,7 @@ body {
     width: 463px;
     margin-bottom: 25px;
     color: #666666;
-    
+
 }
 
 .review__author {
@@ -435,3 +442,19 @@ body {
 
 }
 
+
+.our-video__header {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 900px;
+    text-transform: uppercase;
+}
+
+.our-video__video {
+    margin-left: 335px;
+    margin-top: 20px;
+}
