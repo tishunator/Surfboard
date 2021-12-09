@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/styleForSlider.css" rel="stylesheet" type="text/css">
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <title>Surfboard</title>
+</head>
+
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+    <section class="board-karusel">
+        <h2 class="visually-hidden">Лонгборд 2.0</h2>
+        <div class="board-karusel__desc">
+            <img class="board-karusel__bg" src="img/around-board.svg"> <img class="board-karusel__img"
+                src="img/board.png">
+            <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
+            <div class="board-karusel__header">Лонгборд 2.0</div>
+            <div class="board-karusel__about">Устойчивая доска для новичков. На них легко лежать, сидеть, грести,
+                разгребаться на волны и ехать. Размер и плавучесть доски позволяет брать очень маленькие и пологие волны
+                и
+                не спеша, не прилагая особых усилий ехать по ним.
+            </div>
+            <ul class="board-karusel__sizes">
+                <li class="board-karusel__sizes__header-width">Длина доски</li>
+                <li class="board-karusel__sizes__header-height">Ширина доски </li>
+                <li class="board-karusel__sizes__width"> от 2,5 метров </li>
+                <li class="board-karusel__sizes__height"> от 40 сантиметров </li>
+            </ul>
+            <div class="board-karusel__price">7000 &#8381;</div>
+            <a class="btn board-karusel__btn" href="">
+                <span class="btn__text">ЗАКАЗАТЬ</span>
+
+            </a>
+        </div>
+    </section>
+</div>
+<div class="swiper-slide">
+    <section class="board-karusel">
+        <h2 class="visually-hidden">Шортборд</h2>
+        <div class="board-karusel__desc">
+            <img class="board-karusel__bg" src="img/around-board.svg"> <img class="board-karusel__img"
+                src="img/board2.png">
+            <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
+            <div class="board-karusel__header">Шортборд</div>
+            <div class="board-karusel__about">Самые быстрые доски для профессионалов. Размеры шортбордов позволяют быстро набирать скорость, делать различные трюки на волне, включая резкие повороты и развороты, флоатеры (проезды по самому гребню волны), различные прыжки с вращениями или без, а также катание 
+                в трубах.
+                
+            </div>
+            <ul class="board-karusel__sizes">
+                <li class="board-karusel__sizes__header-width">Длина доски</li>
+                <li class="board-karusel__sizes__header-height">Ширина доски </li>
+                <li class="board-karusel__sizes__width"> от 1,5 метров </li>
+                <li class="board-karusel__sizes__height"> от 30 сантиметров </li>
+            </ul>
+            <div class="board-karusel__price">12000 &#8381;</div>
+            <a class="btn board-karusel__btn" href="">
+                <span class="btn__text">ЗАКАЗАТЬ</span>
+
+            </a>
+        </div>
+    </section>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+        
+
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+</body>
+
+</html>
