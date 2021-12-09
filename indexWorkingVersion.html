@@ -56,7 +56,7 @@
         </section>
     </div>
     <section class="advantages">
-        <h1 class="advantages__header">Почему surfboard?</h1>
+        <h1 class="header">Почему surfboard?</h1>
         <div class="advantages__desc">Мы создаем уникальные и качественные доски из прочных и экологичных материалов.
         </div>
         <ul class="advantages__list">
@@ -145,7 +145,7 @@
         <div class="swiper-button-prev"></div>
     </div>
     <section class="team">
-        <h1 class="team__header">Команда</h1>
+        <h1 class="header team__header">Команда</h1>
         <ul class="team__members">
             <li class="team__member"><img class="team__member__img" src="img/team1.jpg">Борис Федорович </li>
             <li class="team__member"><img class="team__member__img" src="img/team2.jpg">Ольга Невзорова </li>
@@ -157,7 +157,7 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <section class="swiper-slide reviews">
-                <h1 class="reviews__header">Отзывы</h1>
+                <h1 class="header reviews__header">Отзывы</h1>
                 <div class="review">
                     <img class="reviews__img" src="img/review1.jpg">
                     <div class="review__header">Лучший дизайн</div>
@@ -173,7 +173,7 @@
                 </div>
             </section>
             <section class="swiper-slide reviews">
-                <h1 class="reviews__header">Отзывы</h1>
+                <h1 class="header reviews__header">Отзывы</h1>
                 <div class="review">
                     <img class="reviews__img" src="img/review2.jpg">
                     <div class="review__header">Нереальная скорость</div>
@@ -189,7 +189,7 @@
                 </div>
             </section>
             <section class="swiper-slide reviews">
-                <h1 class="reviews__header">Отзывы</h1>
+                <h1 class="header reviews__header">Отзывы</h1>
                 <div class="review">
                     <img class="reviews__img" src="img/review3.jpg">
                     <div class="review__header">Устойчивость и безопасность</div>
@@ -213,12 +213,62 @@
         </div>
     </div>
     <section class="our-video">
-        <h1 class="our-video__header">Как мы работаем</h1>
+        <h1 class="header our-video__header">Как мы работаем</h1>
         <video class="our-video__video" width="400" height="300" controls="controls" poster="img/dog.jpg">
             <source src="">
         </video>
     </section>
     <section class="order">
+        <h1 class="header order__header">Закажите доску</h1>
+        <img src="img/bgOrder1.jpg" class="order__bg1">
+
+        <form method="POST" action="order.php">
+            <input class="order__name" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+            <input class="order__tel" type="text" name="fname" placeholder="">
+        </form>
+
+        <form cmethod="POST" action="order.php">
+            <input class="order__street" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+            <input class="order__house" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+            <input class="order__corpus" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+            <input class="order__flat" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+            <input class="order__floor" type="text" name="fname" placeholder="">
+        </form>
+
+        <form method="POST" action="order.php">
+          
+            <input class="order__comment" type="text" name="fname" placeholder="">
+        </form>
+
+        <div class="order__cash">
+            <input type="radio" checked>
+            <label>Оплата наличными</label>
+        </div>
+
+        <div class="order__card">
+            <input type="radio">
+            <label>Оплата картой</label>
+        </div>
+
+        <div class="order__dontCall">
+            <input type="checkbox">
+            <label>Не перезванивать</label>
+        </div>
 
 
 
@@ -229,7 +279,7 @@
     </section>
     </main>
 
-    
+
 
     <!-- Initialize Swiper -->
     <script>
@@ -248,7 +298,7 @@
                 prevEl: ".swiper-button-prev",
             }
         });
-       
+
     </script>
 </body>
 
