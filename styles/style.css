@@ -168,6 +168,7 @@ body {
     margin-left: -52px;
     margin-top: 4px;
 }
+
 .header {
     font-size: 48px;
     font-style: normal;
@@ -175,7 +176,7 @@ body {
     line-height: 58px;
     letter-spacing: 0px;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 
@@ -360,7 +361,7 @@ body {
 }
 
 .team__header {
-   
+
     margin-bottom: 54px;
     margin-left: -89px;
 }
@@ -380,9 +381,9 @@ body {
 
 
 .reviews__header {
-  
+
     margin-top: 58px;
-    
+
 
 }
 
@@ -448,16 +449,19 @@ body {
     margin-left: 335px;
     margin-top: 20px;
 }
-.order__header{
+
+.order__header {
     color: white;
     position: relative;
     top: 105px;
 }
-.order__bg{
+
+.order__bg {
     width: 1100px;
     height: 652px;
 }
-.order__name{
+
+.order__name {
     position: relative;
     top: -455px;
     padding: 15px;
@@ -465,15 +469,17 @@ body {
     padding-left: 20px;
     width: 190px;
 }
-.order__tel{
+
+.order__tel {
     position: relative;
     top: -505px;
     padding: 15px;
-    margin-left: 317px; 
+    margin-left: 317px;
     padding-left: 20px;
     width: 190px;
 }
-.order__street{
+
+.order__street {
     position: relative;
     top: -457px;
     padding: 15px;
@@ -483,7 +489,8 @@ body {
     height: 22px;
 
 }
-.order__house{
+
+.order__house {
     position: relative;
     top: -420px;
     padding: 15px;
@@ -492,9 +499,9 @@ body {
     width: 66px;
     height: 25px;
 }
-      
 
-.order__corpus{
+
+.order__corpus {
     position: relative;
     top: -478px;
     padding: 15px;
@@ -503,6 +510,7 @@ body {
     width: 65px;
     height: 25px;
 }
+
 .order__flat {
     position: relative;
     top: -537px;
@@ -512,8 +520,9 @@ body {
     margin-left: 327px;
     width: 65px;
     height: 25px;
-} 
-.order__floor{
+}
+
+.order__floor {
     position: relative;
     top: -596px;
     padding: 15px;
@@ -522,7 +531,8 @@ body {
     width: 66px;
     height: 25px;
 }
-.order__comment{
+
+.order__comment {
     position: relative;
     top: -847px;
     padding: 15px;
@@ -531,39 +541,90 @@ body {
     width: 408px;
     height: 85px;
 }
-.order__cash{
-   position: relative;
+
+.order__cash {
+    position: relative;
     top: -773px;
     color: white;
     left: 570px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
 
 }
-.order__card{
+
+.order__card {
     position: relative;
     top: -790px;
     color: white;
     left: 730px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
 }
-.order__dontCall{
+
+.order__dontCall {
     position: relative;
     top: -780px;
     color: white;
     left: 570px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
 }
-.order__btn{
+
+.order__btn {
     position: relative;
     top: -715px;
     left: 562px;
 
 }
-.order__clean{
+
+.order__clean {
     position: relative;
     top: -715px;
-    left: 590px; 
+    left: 590px;
 }
-.map__img{
-    margin-top: -592px;
+
+.map__img {
+    margin-top: -602px;
 }
-.footer__contact{
-top: 500px;
+
+.footer {
+    font-family: Alegreya Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+.footer__contact__tel {
+    margin-top: -22px;
+    margin-left: 22px;
+}
+
+.footer__address {
+    margin-bottom: 10px;
+}
+
+.social-items {
+    display: grid;
+    width: 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    margin-left: 800px;
+    margin-top: -32px;
 }
