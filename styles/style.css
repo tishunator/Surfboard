@@ -134,6 +134,7 @@ body {
     letter-spacing: 0px;
     text-align: center;
     text-transform: uppercase;
+    color: var(--black);
 }
 
 .main__btn {
@@ -548,4 +549,21 @@ body {
     top: -780px;
     color: white;
     left: 570px;
+}
+.order__btn{
+    position: relative;
+    top: -715px;
+    left: 562px;
+
+}
+.order__clean{
+    position: relative;
+    top: -715px;
+    left: 590px; 
+}
+.map__img{
+    margin-top: -592px;
+}
+.footer__contact{
+top: 500px;
 }
