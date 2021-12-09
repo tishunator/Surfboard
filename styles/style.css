@@ -449,4 +449,103 @@ body {
 }
 .order__header{
     color: white;
+    position: relative;
+    top: 105px;
+}
+.order__bg{
+    width: 1100px;
+    height: 652px;
+}
+.order__name{
+    position: relative;
+    top: -455px;
+    padding: 15px;
+    margin-left: 83px;
+    padding-left: 20px;
+    width: 190px;
+}
+.order__tel{
+    position: relative;
+    top: -505px;
+    padding: 15px;
+    margin-left: 317px; 
+    padding-left: 20px;
+    width: 190px;
+}
+.order__street{
+    position: relative;
+    top: -457px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 81px;
+    width: 426px;
+    height: 22px;
+
+}
+.order__house{
+    position: relative;
+    top: -420px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 82px;
+    width: 66px;
+    height: 25px;
+}
+      
+
+.order__corpus{
+    position: relative;
+    top: -478px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 205px;
+    width: 65px;
+    height: 25px;
+}
+.order__flat {
+    position: relative;
+    top: -537px;
+    padding: 15px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 327px;
+    width: 65px;
+    height: 25px;
+} 
+.order__floor{
+    position: relative;
+    top: -596px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 441px;
+    width: 66px;
+    height: 25px;
+}
+.order__comment{
+    position: relative;
+    top: -847px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 569px;
+    width: 408px;
+    height: 85px;
+}
+.order__cash{
+   position: relative;
+    top: -773px;
+    color: white;
+    left: 570px;
+
+}
+.order__card{
+    position: relative;
+    top: -790px;
+    color: white;
+    left: 730px;
+}
+.order__dontCall{
+    position: relative;
+    top: -780px;
+    color: white;
+    left: 570px;
 }
