@@ -14,3 +14,12 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     }
 });
+
+$('#click').click(function(){ $('#main').show(); $('#click').hide(); });
+
+$('#clickk').click(function(){ $('#mainn').show(); $('#clickk').hide();  });
+$('#clickk').click(function(){ $('#MAT').show();});
+$('#MAT').click(function(){ $('#mainn').hide();});
+$('#MAT').click(function(){ $('#mainn').hide(); $('#MAT').hide(); $('#clickk').show();  });
+
+
