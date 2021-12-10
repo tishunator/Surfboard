@@ -26,9 +26,8 @@ html {
 body {
 
     width: 1110px;
-    height: 6000px;
-    /*НЕ ЗААААААААААААБУУУУУУУУУУУУУУУУДЬ УБРААААААААААААААААААААААТЬ*/
     position: relative;
+    min-width: 1170px;
 }
 
 .logo {
@@ -345,9 +344,33 @@ body {
     top: -36px;
 }
 
+.team__member__work {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.team__member__desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #666666;
+    margin-top: 7px;
+}
+
 .team {
     margin-top: 115px;
     margin-left: 82px;
+    height: 530px;
+    
 }
 
 .team__members {
@@ -631,14 +654,14 @@ body {
 }
 
 .menu-slider {
-    margin-top: 141px;
+    margin-top: 60px;
 }
 
 .main-nav__treug {
     position: relative;
-  }
-  
-  .main-nav__treug::after {
+}
+
+.main-nav__treug::after {
     content: "";
     position: absolute;
     display: inline-block;
@@ -651,12 +674,14 @@ body {
     top: -9px;
     right: 26px;
     transform: translate(140%, -25%);
-  }
-  .main-nav__treug-reverse{
+}
+
+.main-nav__treug-reverse {
     position: relative;
 
-  }
-.main-nav__treug-reverse::after{
+}
+
+.main-nav__treug-reverse::after {
     content: "";
     position: absolute;
     display: inline-block;
@@ -671,7 +696,6 @@ body {
     transform: translate(140%, -76%);
 }
 
-  #desc1, #desc2, #clickReverse, #clickReverse2, #desc3, #clickReverse3, #desc4, #clickReverse4 {
+#desc1, #desc2, #clickReverse, #clickReverse2, #desc3, #clickReverse3, #desc4, #clickReverse4 {
     display: none;
-   }
-  
+}
