@@ -633,3 +633,45 @@ body {
 .menu-slider {
     margin-top: 141px;
 }
+
+.main-nav__treug {
+    position: relative;
+  }
+  
+  .main-nav__treug::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 4px solid;
+    border-top-width: 7px;
+    border-color: transparent;
+    border-top-color: black;
+    /*top: 50%;
+    right: -15%;*/
+    top: -9px;
+    right: 26px;
+    transform: translate(140%, -25%);
+  }
+  .main-nav__treug-reverse{
+    position: relative;
+
+  }
+.main-nav__treug-reverse::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: 4px solid;
+    border-bottom-width: 7px;
+    border-color: transparent;
+    border-bottom-color: black;
+    /*top: 50%;
+    right: -15%;*/
+    top: -9px;
+    right: 26px;
+    transform: translate(140%, -76%);
+}
+
+  #desc1, #desc2, #clickReverse, #clickReverse2, #desc3, #clickReverse3, #desc4, #clickReverse4 {
+    display: none;
+   }
+  
