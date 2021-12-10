@@ -15,11 +15,26 @@ var swiper = new Swiper(".mySwiper", {
     }
 });
 
-$('#click').click(function(){ $('#main').show(); $('#click').hide(); });
+$('#click').click(function(){ $('#desc1').show(); $('#click').hide(); });
+$('#click').click(function(){ $('#clickReverse').show();});
+$('#clickReverse').click(function(){ $('#desc1').hide();});
+$('#clickReverse').click(function(){ $('#desc1').hide(); $('#clickReverse').hide(); $('#click').show();  });
 
-$('#clickk').click(function(){ $('#mainn').show(); $('#clickk').hide();  });
-$('#clickk').click(function(){ $('#MAT').show();});
-$('#MAT').click(function(){ $('#mainn').hide();});
-$('#MAT').click(function(){ $('#mainn').hide(); $('#MAT').hide(); $('#clickk').show();  });
+
+
+$('#click2').click(function(){ $('#desc2').show(); $('#click2').hide();  });
+$('#click2').click(function(){ $('#clickReverse2').show();});
+$('#clickReverse2').click(function(){ $('#desc2').hide();});
+$('#clickReverse2').click(function(){ $('#desc2').hide(); $('#clickReverse2').hide(); $('#click2').show();  });
+
+$('#click3').click(function(){ $('#desc3').show(); $('#click3').hide();  });
+$('#click3').click(function(){ $('#clickReverse3').show();});
+$('#clickReverse3').click(function(){ $('#desc3').hide();});
+$('#clickReverse3').click(function(){ $('#desc3').hide(); $('#clickReverse3').hide(); $('#click3').show();  });
+
+$('#click4').click(function(){ $('#desc4').show(); $('#click4').hide();  });
+$('#click4').click(function(){ $('#clickReverse4').show();});
+$('#clickReverse4').click(function(){ $('#desc4').hide();});
+$('#clickReverse4').click(function(){ $('#desc4').hide(); $('#clickReverse4').hide(); $('#click4').show();  });
 
 
