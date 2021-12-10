@@ -11,9 +11,11 @@
         rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="styles/styleForSlider.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <title>Surfboard</title>
 </head>
 
@@ -147,10 +149,41 @@
     <section class="team">
         <h1 class="header team__header">Команда</h1>
         <ul class="team__members">
-            <li class="team__member"><img class="team__member__img" src="img/team1.jpg">Борис Федорович </li>
-            <li class="team__member"><img class="team__member__img" src="img/team2.jpg">Ольга Невзорова </li>
-            <li class="team__member"><img class="team__member__img" src="img/team3.jpg">Ингвар Нильсон </li>
-            <li class="team__member"><img class="team__member__img" src="img/team4.jpg">Екатерина Иванова </li>
+            <li class="team__member">
+                <img class="team__member__img" src="img/team1.jpg">
+                Борис Федорович
+                <div id="click" class="main-nav__treug"></div>
+                <div id="clickReverse" class="main-nav__treug-reverse"></div>
+
+                <div id="desc1">Отвечает за материалы и
+                    разработку досок</div>
+            </li>
+
+            <li class="team__member"><img class="team__member__img" src="img/team2.jpg">Ольга Невзорова <div id="click2"
+                    class="main-nav__treug"> </div>
+                <div id="clickReverse2" class="main-nav__treug-reverse"></div>
+
+                <div id="desc2">Создает дизайн
+                    серфбордов</div>
+            </li>
+
+
+            <li class="team__member"><img class="team__member__img" src="img/team3.jpg">Ингвар Нильсон<div id="click3"
+                    class="main-nav__treug"> </div>
+                <div id="clickReverse3" class="main-nav__treug-reverse"></div>
+
+                <div id="desc3">Учавствует в разработке
+                    серфбордов</div>
+            </li>
+
+
+            <li class="team__member"><img class="team__member__img" src="img/team4.jpg">Екатерина Иванова <div
+                    id="click4" class="main-nav__treug"> </div>
+                <div id="clickReverse4" class="main-nav__treug-reverse"></div>
+                <div id="desc4">Отвечает за разработку новых продуктов</div>
+
+
+            </li>
 
         </ul>
     </section>
@@ -301,8 +334,9 @@
 
 
 
-   
+
     <script src="scripts/main.js"></script>
+
 </body>
 
 </html>
