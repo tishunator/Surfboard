@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1170">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap"
@@ -21,9 +21,9 @@
 
 <body>
     <div class="main__background">
-        <header>
+        <header class="navigation">
             <img class="logo" src="img/logo.svg">
-            <nav class="navigation">
+            <nav class="navigation__list">
                 <ul class="navigation__items">
                     <li class="navigation__item"><a href="">О нас </a></li>
                     <li class="navigation__item"><a href="">Серфборды </a></li>
@@ -91,8 +91,7 @@
             <section class="swiper-slide board-karusel">
                 <h2 class="visually-hidden">Лонгборд 2.0</h2>
                 <div class="board-karusel__desc">
-                     <img class="board-karusel__img"
-                        src="img/board.png">
+                    <img class="board-karusel__img" src="img/board.png">
                     <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
                     <div class="board-karusel__header">Лонгборд 2.0</div>
                     <div class="board-karusel__about">Устойчивая доска для новичков. На них легко лежать, сидеть,
@@ -118,8 +117,7 @@
             <section class="swiper-slide board-karusel">
                 <h2 class="visually-hidden">Шортборд</h2>
                 <div class="board-karusel__desc">
-                    <img class="board-karusel__img"
-                        src="img/board2.png">
+                    <img class="board-karusel__img" src="img/board2.png">
                     <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
                     <div class="board-karusel__header">Шортборд</div>
                     <div class="board-karusel__about">Самые быстрые доски для профессионалов. Размеры шортбордов
@@ -154,8 +152,9 @@
                 <div class="team__member__name">
                     Борис Федорович
                     <div id="click" class="main-nav__treug"></div>
-              
-                <div id="clickReverse" class="main-nav__treug-reverse"></div>  </div>
+
+                    <div id="clickReverse" class="main-nav__treug-reverse"></div>
+                </div>
                 <div id="desc1">
                     <div class="team__member__work">Главный технолог</div>
                     <div class="team__member__desc">Отвечает за материалы и разработку досок</div>
@@ -164,10 +163,10 @@
 
             <li class="team__member"><img class="team__member__img" src="img/team2.jpg">
                 <div class="team__member__name">
-                Ольга Невзорова 
-                <div id="click2"
-                    class="main-nav__treug"> </div>
-                <div id="clickReverse2" class="main-nav__treug-reverse"></div></div>
+                    Ольга Невзорова
+                    <div id="click2" class="main-nav__treug"> </div>
+                    <div id="clickReverse2" class="main-nav__treug-reverse"></div>
+                </div>
                 <div id="desc2">
                     <div class="team__member__work">Дизайнер</div>
                     <div class="team__member__desc">Создает дизайн серфбордов</div>
@@ -177,9 +176,9 @@
 
             <li class="team__member"><img class="team__member__img" src="img/team3.jpg">
                 <div class="team__member__name">Ингвар Нильсон
-                    <div id="click3"
-                    class="main-nav__treug"> </div>
-                <div id="clickReverse3" class="main-nav__treug-reverse"></div></div>
+                    <div id="click3" class="main-nav__treug"> </div>
+                    <div id="clickReverse3" class="main-nav__treug-reverse"></div>
+                </div>
                 <div id="desc3">
                     <div class="team__member__work">Спортсмен</div>
                     <div class="team__member__desc">Учавствует в разработке серфбордов</div>
@@ -188,9 +187,9 @@
 
 
             <li class="team__member"><img class="team__member__img" src="img/team4.jpg">
-                <div class="team__member__name">Екатерина Иванова <div
-                    id="click4" class="main-nav__treug"> </div>
-                <div id="clickReverse4" class="main-nav__treug-reverse"></div></div>
+                <div class="team__member__name">Екатерина Иванова <div id="click4" class="main-nav__treug"> </div>
+                    <div id="clickReverse4" class="main-nav__treug-reverse"></div>
+                </div>
                 <div id="desc4">
                     <div class="team__member__work">Тестировщик</div>
                     <div class="team__member__desc">Отвечает за разработку новых продуктов</div>
@@ -271,65 +270,63 @@
     </section>
     <section class="order">
         <div class="order__bg">
-        <h1 class="header order__header">Закажите доску</h1>
-     
+            <h1 class="header order__header">Закажите доску</h1>
 
-        <form method="POST" action="order.php">
-            
-            <input class="order__name" type="text" name="name" required  placeholder="Имя">
-     
 
-       
-            <input class="order__tel" type="tel" name="tel" required  placeholder="Телефон">
-        
+            <form method="POST" action="order.php">
 
-            <input class="order__street" type="text" name="street" placeholder="Улица">
-        
+                <input class="order__name" type="text" name="name" required placeholder="Имя">
 
-        
-            <input class="order__house" type="text" name="House-number" placeholder="Дом">
-       
 
-       
-            <input class="order__corpus" type="text"  required name="corpus" placeholder="Корпус">
-       
 
-       
-            <input class="order__flat" type="text" name="flat" required  placeholder="Квартира">
-       
+                <input class="order__tel" type="tel" name="tel" required placeholder="Телефон">
 
-        
-            <input class="order__floor" type="text" name="floor" placeholder="Этаж">
-       
 
-        
+                <input class="order__street" type="text" name="street" placeholder="Улица">
 
-            <input class="order__comment" type="text" name="comment" placeholder="Комментарий">
-       
 
-        <div class="order__payment">
-            <input type="radio" id="PaymentChoice1"
-            name="payment" value="cash">
-           <label for="PaymentChoice1">Оплата наличными</label>
-       
-           <input type="radio" id="PaymentChoice2"
-            name="payment" value="card">
-           <label for="PaymentChoice2">Оплата картой</label>
+
+                <input class="order__house" type="text" name="House-number" placeholder="Дом">
+
+
+
+                <input class="order__corpus" type="text" required name="corpus" placeholder="Корпус">
+
+
+
+                <input class="order__flat" type="text" name="flat" required placeholder="Квартира">
+
+
+
+                <input class="order__floor" type="text" name="floor" placeholder="Этаж">
+
+
+
+
+                <input class="order__comment" type="text" name="comment" placeholder="Комментарий">
+
+
+                <div class="order__payment">
+                    <input type="radio" id="PaymentChoice1" name="payment" value="cash">
+                    <label for="PaymentChoice1">Оплата наличными</label>
+
+                    <input type="radio" id="PaymentChoice2" name="payment" value="card">
+                    <label for="PaymentChoice2">Оплата картой</label>
+                </div>
+
+
+
+                <div class="order__dontCall">
+                    <input type="checkbox">
+                    <label>Не перезванивать</label>
+                </div>
+
+                <button class="btn order__btn" type="submit">
+                    ЗАКАЗАТЬ
+                </button>
+                <button class="order__clean">Очистить</button>
+            </form>
         </div>
-
-     
-
-        <div class="order__dontCall">
-            <input type="checkbox">
-            <label>Не перезванивать</label>
-        </div>
-        
-        <button class="btn order__btn" type="submit">
-           ЗАКАЗАТЬ
-        </button>
-        <button class="order__clean">Очистить</button>
-    </form>
-    </div>
     </section>
 
     <section class="map">
