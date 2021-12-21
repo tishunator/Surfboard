@@ -91,7 +91,7 @@
             <section class="swiper-slide board-karusel">
                 <h2 class="visually-hidden">Лонгборд 2.0</h2>
                 <div class="board-karusel__desc">
-                    <img class="board-karusel__bg" src="img/around-board.svg"> <img class="board-karusel__img"
+                     <img class="board-karusel__img"
                         src="img/board.png">
                     <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
                     <div class="board-karusel__header">Лонгборд 2.0</div>
@@ -118,7 +118,7 @@
             <section class="swiper-slide board-karusel">
                 <h2 class="visually-hidden">Шортборд</h2>
                 <div class="board-karusel__desc">
-                    <img class="board-karusel__bg" src="img/around-board.svg"> <img class="board-karusel__img"
+                    <img class="board-karusel__img"
                         src="img/board2.png">
                     <div class="board-karusel__setting">ПАРАМЕТРЫ</div>
                     <div class="board-karusel__header">Шортборд</div>
@@ -151,34 +151,50 @@
         <ul class="team__members">
             <li class="team__member">
                 <img class="team__member__img" src="img/team1.jpg">
-                Борис Федорович
-                <div id="click" class="main-nav__treug"></div>
-                <div id="clickReverse" class="main-nav__treug-reverse"></div>
-                <div id="desc1"><div class="team__member__work">Главный технолог</div>
-                <div class="team__member__desc">Отвечает за материалы и разработку досок</div></div>
+                <div class="team__member__name">
+                    Борис Федорович
+                    <div id="click" class="main-nav__treug"></div>
+              
+                <div id="clickReverse" class="main-nav__treug-reverse"></div>  </div>
+                <div id="desc1">
+                    <div class="team__member__work">Главный технолог</div>
+                    <div class="team__member__desc">Отвечает за материалы и разработку досок</div>
+                </div>
             </li>
 
-            <li class="team__member"><img class="team__member__img" src="img/team2.jpg">Ольга Невзорова <div id="click2"
+            <li class="team__member"><img class="team__member__img" src="img/team2.jpg">
+                <div class="team__member__name">
+                Ольга Невзорова 
+                <div id="click2"
                     class="main-nav__treug"> </div>
-                <div id="clickReverse2" class="main-nav__treug-reverse"></div>
-                <div id="desc2"><div class="team__member__work">Дизайнер</div>
-                <div class="team__member__desc">Создает дизайн серфбордов</div></div>
+                <div id="clickReverse2" class="main-nav__treug-reverse"></div></div>
+                <div id="desc2">
+                    <div class="team__member__work">Дизайнер</div>
+                    <div class="team__member__desc">Создает дизайн серфбордов</div>
+                </div>
             </li>
 
 
-            <li class="team__member"><img class="team__member__img" src="img/team3.jpg">Ингвар Нильсон<div id="click3"
+            <li class="team__member"><img class="team__member__img" src="img/team3.jpg">
+                <div class="team__member__name">Ингвар Нильсон
+                    <div id="click3"
                     class="main-nav__treug"> </div>
-                <div id="clickReverse3" class="main-nav__treug-reverse"></div>
-                <div id="desc3"><div class="team__member__work">Спортсмен</div>
-                <div class="team__member__desc">Учавствует в разработке серфбордов</div></div>
+                <div id="clickReverse3" class="main-nav__treug-reverse"></div></div>
+                <div id="desc3">
+                    <div class="team__member__work">Спортсмен</div>
+                    <div class="team__member__desc">Учавствует в разработке серфбордов</div>
+                </div>
             </li>
 
 
-            <li class="team__member"><img class="team__member__img" src="img/team4.jpg">Екатерина Иванова <div
+            <li class="team__member"><img class="team__member__img" src="img/team4.jpg">
+                <div class="team__member__name">Екатерина Иванова <div
                     id="click4" class="main-nav__treug"> </div>
-                <div id="clickReverse4" class="main-nav__treug-reverse"></div>
-                <div id="desc4"><div class="team__member__work">Тестировщик</div>
-               <div class="team__member__desc">Отвечает за разработку новых продуктов</div></div>
+                <div id="clickReverse4" class="main-nav__treug-reverse"></div></div>
+                <div id="desc4">
+                    <div class="team__member__work">Тестировщик</div>
+                    <div class="team__member__desc">Отвечает за разработку новых продуктов</div>
+                </div>
 
 
             </li>
@@ -254,62 +270,68 @@
         </video>
     </section>
     <section class="order">
+        <div class="order__bg">
         <h1 class="header order__header">Закажите доску</h1>
-        <img src="img/bgOrder1.jpg" class="order__bg1">
+     
 
         <form method="POST" action="order.php">
-            <input class="order__name" type="text" name="fname" placeholder="">
-        </form>
+            
+            <input class="order__name" type="text" name="name" required  placeholder="Имя">
+     
 
-        <form method="POST" action="order.php">
-            <input class="order__tel" type="text" name="fname" placeholder="">
-        </form>
+       
+            <input class="order__tel" type="tel" name="tel" required  placeholder="Телефон">
+        
 
-        <form cmethod="POST" action="order.php">
-            <input class="order__street" type="text" name="fname" placeholder="">
-        </form>
+            <input class="order__street" type="text" name="street" placeholder="Улица">
+        
 
-        <form method="POST" action="order.php">
-            <input class="order__house" type="text" name="fname" placeholder="">
-        </form>
+        
+            <input class="order__house" type="text" name="House-number" placeholder="Дом">
+       
 
-        <form method="POST" action="order.php">
-            <input class="order__corpus" type="text" name="fname" placeholder="">
-        </form>
+       
+            <input class="order__corpus" type="text"  required name="corpus" placeholder="Корпус">
+       
 
-        <form method="POST" action="order.php">
-            <input class="order__flat" type="text" name="fname" placeholder="">
-        </form>
+       
+            <input class="order__flat" type="text" name="flat" required  placeholder="Квартира">
+       
 
-        <form method="POST" action="order.php">
-            <input class="order__floor" type="text" name="fname" placeholder="">
-        </form>
+        
+            <input class="order__floor" type="text" name="floor" placeholder="Этаж">
+       
 
-        <form method="POST" action="order.php">
+        
 
-            <input class="order__comment" type="text" name="fname" placeholder="">
-        </form>
+            <input class="order__comment" type="text" name="comment" placeholder="Комментарий">
+       
 
-        <div class="order__cash">
-            <input type="radio" checked>
-            <label>Оплата наличными</label>
+        <div class="order__payment">
+            <input type="radio" id="PaymentChoice1"
+            name="payment" value="cash">
+           <label for="PaymentChoice1">Оплата наличными</label>
+       
+           <input type="radio" id="PaymentChoice2"
+            name="payment" value="card">
+           <label for="PaymentChoice2">Оплата картой</label>
         </div>
 
-        <div class="order__card">
-            <input type="radio">
-            <label>Оплата картой</label>
-        </div>
+     
 
         <div class="order__dontCall">
             <input type="checkbox">
             <label>Не перезванивать</label>
         </div>
-        <a class="btn order__btn" href="">
-            <span class="btn__text">ЗАКАЗАТЬ</span>
-
-        </a>
+        
+        <button class="btn order__btn" type="submit">
+           ЗАКАЗАТЬ
+        </button>
         <button class="order__clean">Очистить</button>
+    </form>
+    </div>
     </section>
+
     <section class="map">
         <h2 class="visually-hidden">Карта</h2>
         <img src="img/map.jpg" class="map__img">
