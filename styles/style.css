@@ -1388,5 +1388,8 @@ body {
   .social-items{
       margin: 17px auto;
   }
+  .menu-slider__img{
+      width: 480px;
+  }
   
 }
