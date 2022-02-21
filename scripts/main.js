@@ -37,4 +37,10 @@ $('#click4').click(function(){ $('#clickReverse4').show();});
 $('#clickReverse4').click(function(){ $('#desc4').hide();});
 $('#clickReverse4').click(function(){ $('#desc4').hide();$('#img4').hide();/*$('#img4').hide(); вот эта строчка прячет картинку*/ $('#clickReverse4').hide(); $('#click4').show();  });
 
-
+$(document).ready(function() {
+	$('.menu-burger__header').click(function(){
+        $('.menu-burger__header').toggleClass('open-menu');
+        $('.header__nav').toggleClass('open-menu');
+        $('body').toggleClass('fixed-page');
+	});
+});
