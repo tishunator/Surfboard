@@ -836,6 +836,7 @@ body {
 
     .header__nav.open-menu {
         top: 0;
+        z-index: 1;
     }
 
 
@@ -1233,6 +1234,7 @@ body {
 
         top: -100%;
         transition: all 0.4s ease;
+        
     }
 
     .header__menu {
@@ -1258,6 +1260,7 @@ body {
 
     .header__nav.open-menu {
         top: 0;
+        z-index: 1;
     }
 
 
