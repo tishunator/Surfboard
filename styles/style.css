@@ -396,6 +396,9 @@ body {
 
 .team__member__img {
     margin-bottom: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -840,11 +843,6 @@ body {
     }
 
 
-
-
-
-
-
     .contact {
         display: none;
     }
@@ -965,6 +963,7 @@ body {
         margin-left: 0px;
         margin-bottom: 195px;
         margin-top: 271px;
+        height:500px;
     }
 
     .team__header {
